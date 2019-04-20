@@ -113,7 +113,7 @@ Or read tool-svim-core/[README.md](https://github.com/samwhelp/tool-svim-core).
 
 * [tool-svim](https://github.com/samwhelp/tool-svim)
 * [tool-mvim](https://github.com/samwhelp/tool-mvim)
-
+* [tool-ivim](https://github.com/samwhelp/tool-ivim)
 
 ## Prototype Projects
 
