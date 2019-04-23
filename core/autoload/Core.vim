@@ -24,7 +24,9 @@ endfunction
 function! UserColorScheme_Conf () abort
 	"echomsg 'Core::UserColorScheme_Conf'
 
-	colorscheme space_vim_theme
+	"colorscheme space_vim_theme
+	colorscheme onedark
+
 endfunction
 
 ""
