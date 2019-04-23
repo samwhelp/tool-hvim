@@ -18,8 +18,9 @@ if has('nvim')
 endif
 
 
-	nnoremap <Space>vt :Vista toc<CR>
+	nnoremap <Space>vm :Vista toc<CR>
 	nnoremap <Space>vc :Vista coc<CR>
+	nnoremap <Space>vt :Vista ctags<CR>
 	nnoremap <Space>vf :Vista finder<CR>
 	nnoremap <Space>vgc :Vista finder coc<CR>
 	nnoremap <Space>vgt :Vista finder ctags<CR>
