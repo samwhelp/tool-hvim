@@ -10,6 +10,7 @@ function! Pack#Fm_Ranger#Plug#Run () abort
 	" https://ranger.github.io/
 	" https://github.com/ranger/ranger
 	" https://github.com/francoiscabrol/ranger.vim
+	" https://github.com/rbgrouleff/bclose.vim
 	Plug 'francoiscabrol/ranger.vim'
 	Plug 'rbgrouleff/bclose.vim'
 

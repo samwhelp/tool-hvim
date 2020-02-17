@@ -44,6 +44,9 @@ function! Pack#Config#InControl () abort
 		call Pack#Fm_Ranger#Conf#Run()
 	endif
 
+	if Conf#Pack#IsEnable('Fm_Lf')
+		call Pack#Fm_Lf#Conf#Run()
+	endif
 
 	if Conf#Pack#IsEnable('Vista')
 		call Pack#Vista#Conf#Run()

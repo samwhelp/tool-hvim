@@ -31,6 +31,9 @@
 " ## Disable Fm_Ranger
 "let g:the_pack_disable['Fm_Ranger'] = 1
 
+" ## Disable Fm_Lf
+"let g:the_pack_disable['Fm_Lf'] = 1
+
 " ## Disable Fzf
 "let g:the_pack_disable['Fzf'] = 1
 
