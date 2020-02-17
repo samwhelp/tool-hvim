@@ -12,7 +12,11 @@ function! Pack#Fm_Ranger#Plug#Run () abort
 	" https://github.com/francoiscabrol/ranger.vim
 	" https://github.com/rbgrouleff/bclose.vim
 	Plug 'francoiscabrol/ranger.vim'
-	Plug 'rbgrouleff/bclose.vim'
+	"Plug 'rbgrouleff/bclose.vim'
+
+	if has('nvim')
+		Plug 'rbgrouleff/bclose.vim'
+	endif
 
 	" Notice
 	" Install ranger first

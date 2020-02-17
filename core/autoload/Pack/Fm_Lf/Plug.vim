@@ -12,7 +12,11 @@ function! Pack#Fm_Lf#Plug#Run () abort
 	" https://github.com/francoiscabrol/ranger.vim
 	" https://github.com/rbgrouleff/bclose.vim
 	Plug 'ptzz/lf.vim'
-	Plug 'rbgrouleff/bclose.vim'
+	"Plug 'rbgrouleff/bclose.vim'
+
+	if has('nvim')
+		Plug 'rbgrouleff/bclose.vim'
+	endif
 
 	" Notice
 	" Install lf first
