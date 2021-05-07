@@ -6,7 +6,8 @@
 
 function! Pack#NerdTree#Conf#Run () abort
 
-	nnoremap ,t :NERDTreeToggle<cr>
+	nnoremap ,t :NERDTreeToggle<CR>
+	nnoremap <Space>et :NERDTreeToggle<CR>
 
 endfunction
 
