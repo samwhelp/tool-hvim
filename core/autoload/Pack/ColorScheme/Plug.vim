@@ -20,6 +20,8 @@ function! Pack#ColorScheme#Plug#Run () abort
 	" ## https://github.com/liuchengxu/space-vim-theme
 	Plug 'liuchengxu/space-vim-theme'
 
+	" ## https://github.com/junegunn/seoul256.vim
+	Plug 'junegunn/seoul256.vim'
 
 	call UserColorScheme_Plug()
 
