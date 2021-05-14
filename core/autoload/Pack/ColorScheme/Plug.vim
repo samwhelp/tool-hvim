@@ -23,6 +23,10 @@ function! Pack#ColorScheme#Plug#Run () abort
 	" ## https://github.com/junegunn/seoul256.vim
 	Plug 'junegunn/seoul256.vim'
 
+	"https://draculatheme.com/vim
+	"https://github.com/dracula/vim
+	Plug 'dracula/vim', { 'as': 'dracula' }
+
 	call UserColorScheme_Plug()
 
 endfunction

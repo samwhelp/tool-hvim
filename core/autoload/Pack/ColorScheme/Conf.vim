@@ -19,6 +19,7 @@ function! Pack#ColorScheme#Conf#Run () abort
 	"colorscheme space_vim_theme
 	"colorscheme seoul256
 	"colorscheme seoul256-light
+	"colorscheme dracula
 
 
 	" ## ubuntu default colorscheme

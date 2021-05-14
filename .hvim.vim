@@ -83,7 +83,8 @@ function! UserColorScheme_Conf () abort
 	colorscheme space_vim_theme
 	"colorscheme dracula
 	"colorscheme seoul256
-	"colorscheme seoul256-light	
+	"colorscheme seoul256-light
+	"colorscheme dracula
 
 
 	" ## ubuntu default colorscheme
