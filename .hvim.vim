@@ -19,6 +19,9 @@
 " ## Disable Fcitx
 "let g:the_pack_disable['Fcitx'] = 1
 
+" ## Disable Edit_BetterWhitespace
+"let g:the_pack_disable['Edit_BetterWhitespace'] = 1
+
 " ## Disable EleLine
 "let g:the_pack_disable['EleLine'] = 1
 

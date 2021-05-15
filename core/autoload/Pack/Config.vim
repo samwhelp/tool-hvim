@@ -20,6 +20,11 @@ function! Pack#Config#InControl () abort
 	endif
 
 
+	if Conf#Pack#IsEnable('Edit_BetterWhitespace')
+		call Pack#Edit_BetterWhitespace#Conf#Run()
+	endif
+
+
 	if Conf#Pack#IsEnable('EleLine')
 		call Pack#EleLine#Conf#Run()
 	endif
