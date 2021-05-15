@@ -5,8 +5,8 @@
 ""
 
 function! Pack#Edit_BetterWhitespace#Plug#Run () abort
-	" ## https://github.com/Ntpeters/vim-better-whitespace
-	Plug 'Ntpeters/vim-better-whitespace'
+	" ## https://github.com/ntpeters/vim-better-whitespace
+	Plug 'ntpeters/vim-better-whitespace'
 endfunction
 
 ""
